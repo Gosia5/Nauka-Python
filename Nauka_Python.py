@@ -7,14 +7,20 @@
 #    print(i)
 #    i += 1
 
-haslo="Haslo123"
-licznik=0
-for i in range(3):
-    proba=input("Podaj hasło: ")
-    if proba == haslo:
-        print("Hasło poprawne.")
-        break
-    else:
-        print("Błąd.")
-else:
-    print("Za dużo prób.")
+#haslo="Haslo123"
+#licznik=0
+#for i in range(3):
+#    proba=input("Podaj hasło: ")
+#    if proba == haslo:
+#        print("Hasło poprawne.")
+#        break
+#    else:
+#        print("Błąd.")
+#else:
+#    print("Za dużo prób.")
+
+owoce = []
+for i in range (5):
+    owoc = input("Podaj owoc: ")
+    owoce.append(owoc)
+print(owoce)
