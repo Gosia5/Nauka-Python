@@ -1,11 +1,18 @@
+# PĘTLA FOR --------------------------
 
 #for i in range (5):
 #    print(i)
+
+
+# PĘTLA WHILE ------------------------
 
 #i = 0 
 #while i < 5:
 #    print(i)
 #    i += 1
+
+
+# HASŁO - PYTANIE 3 RAZY -------------
 
 #haslo="Haslo123"
 #licznik=0
@@ -19,8 +26,14 @@
 #else:
 #    print("Za dużo prób.")
 
-owoce = []
-for i in range (5):
-    owoc = input("Podaj owoc: ")
-    owoce.append(owoc)
-print(owoce)
+
+# LISTA - DODAJ OWOCE ----------------
+
+#owoce = []
+#for i in range (5):
+#    owoc = input("Podaj owoc: ")
+#    owoce.append(owoc)
+#print(owoce)
+
+
+# NEXT
