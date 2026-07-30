@@ -36,5 +36,22 @@
 #print(owoce)
 
 
-# NEXT
+# ŚWICZENIA FORMAT STRING ------------
 
+name = input("Podaj imię: ")
+city = input("Podaj miasto: ")
+hobby = input("Podaj hobby: ")
+
+name = name.strip().capitalize()
+city = city.strip().upper()
+hobby = hobby.strip().capitalize()
+
+report = [
+    "RAPORT UŻYTKOWNIKA:", 
+    "Imię: " + name, 
+    "Miasto: " + city, 
+    "Hobby: " + hobby,
+    "",
+    "Witaj, " + name]
+
+print(*report, sep='\n')
