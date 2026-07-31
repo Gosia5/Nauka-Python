@@ -36,22 +36,52 @@
 #print(owoce)
 
 
-# ŚWICZENIA FORMAT STRING ------------
+# ĆWICZENIE FORMAT STRING ------------
 
-name = input("Podaj imię: ")
-city = input("Podaj miasto: ")
-hobby = input("Podaj hobby: ")
+#name = input("Podaj imię: ")
+#city = input("Podaj miasto: ")
+#hobby = input("Podaj hobby: ")
 
-name = name.strip().capitalize()
-city = city.strip().upper()
-hobby = hobby.strip().capitalize()
+#name = name.strip().capitalize()
+#city = city.strip().upper()
+#hobby = hobby.strip().capitalize()
 
-report = [
-    "RAPORT UŻYTKOWNIKA:", 
-    "Imię: " + name, 
-    "Miasto: " + city, 
-    "Hobby: " + hobby,
-    "",
-    "Witaj, " + name]
+#report = [
+#    "RAPORT UŻYTKOWNIKA:", 
+#    "Imię: " + name, 
+#    "Miasto: " + city, 
+#    "Hobby: " + hobby,
+#    "",
+#    "Witaj, " + name]
 
-print(*report, sep='\n')
+#print(*report, sep='\n')
+
+
+# ĆWICZENIE FUNKCJE LIST ------------
+
+#queue = ["Anna", "Bartek", "Celina"]
+
+#queue.append("Daniel")
+#served = queue.pop(0)
+#print("Obsłużono:", served)
+#print("Aktualna kolejka:\n", queue)
+#print("Liczba oczekujących:", len(queue))
+
+
+# ĆwWICZENIE 2
+
+#queue = ["Jan", "Ola", "Marek"]
+
+#queue.append("Ewa")
+#queue.append("Kasia")
+
+#served1 = queue.pop(0)
+#served2 = queue.pop(0)
+
+#print("Obsłużono:", served1)
+#print("Obsłużono:", served2)
+#print("Aktualna kolejka:")
+#print(queue)
+#print("Liczba pacjentów:", len(queue))
+#print("Następny pacjent:", queue[0])
+
