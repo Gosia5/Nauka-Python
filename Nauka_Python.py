@@ -88,29 +88,17 @@
 
 # ĆWICZENIE FUNCKJE NIESTANDARDOWE -----
 
-#def shipping_cost(weight):
-#    cost = 8 + (weight * 2)
-#    return cost
+#shopping_cart = []
 
-#pack1 = shipping_cost(3)
-#pack2 = shipping_cost(7)
-#pack3 = shipping_cost(12)
+#def add_to_cart(shopping_cart):
+#    number_of_products = int(input("Podaj ilość produktów: "))
+#    for _ in range (number_of_products):
+#        product = input("Podaj produkt: ")
+#        shopping_cart.append(product)
 
-#print("Koszt wysyłki:", pack1, "zł")
-#print("Koszt wysyłki:", pack2, "zł")
-#print("Koszt wysyłki:", pack3, "zł")
+#def show_cart(shopping_cart):
+#    for index, product in enumerate(shopping_cart, start=1):
+#        print(index, product)
 
-
-# ŚWICZENIE ENUMERATE
-
-#cart=["chleb", "masło", "mleko"]
-
-#def show_cart(cart):
-#    for index, product in enumerate(cart, start=1):
-#        print(index, product.capitalize())
-   
-#show_cart(cart)
-
-
-
-
+#add_to_cart(shopping_cart)
+#show_cart(shopping_cart)
