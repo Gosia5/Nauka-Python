@@ -85,3 +85,32 @@
 #print("Liczba pacjentów:", len(queue))
 #print("Następny pacjent:", queue[0])
 
+
+# ĆWICZENIE FUNCKJE NIESTANDARDOWE -----
+
+#def shipping_cost(weight):
+#    cost = 8 + (weight * 2)
+#    return cost
+
+#pack1 = shipping_cost(3)
+#pack2 = shipping_cost(7)
+#pack3 = shipping_cost(12)
+
+#print("Koszt wysyłki:", pack1, "zł")
+#print("Koszt wysyłki:", pack2, "zł")
+#print("Koszt wysyłki:", pack3, "zł")
+
+
+# ŚWICZENIE ENUMERATE
+
+#cart=["chleb", "masło", "mleko"]
+
+#def show_cart(cart):
+#    for index, product in enumerate(cart, start=1):
+#        print(index, product.capitalize())
+   
+#show_cart(cart)
+
+
+
+
