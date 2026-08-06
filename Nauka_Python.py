@@ -86,24 +86,28 @@
 #print("Następny pacjent:", queue[0])
 
 
-# ĆWICZENIE FUNCKJE NIESTANDARDOWE -----
+# ĆWICZENIE FUNCKJE NIESTANDARDOWE ---
 
-tasks = []
+#tasks = []
 
-def add_tasks(tasks):
-    number_of_tasks = int(input("Podaj liczbę zadań: "))
-    for _ in range (number_of_tasks):
-        task = input("Podaj zadanie: ")
-        tasks.append(task)
+#def add_tasks(tasks):
+#    number_of_tasks = int(input("Podaj liczbę zadań: "))
+#    for _ in range (number_of_tasks):
+#        task = input("Podaj zadanie: ")
+#        tasks.append(task)
         
-def show_tasks(tasks):
-    for index, task in enumerate(tasks, start=1):
-        print(f"{index}. {task.capitalize()}")
+#def show_tasks(tasks):
+#    for index, task in enumerate(tasks, start=1):
+#        print(f"{index}. {task.capitalize()}")
 
-def count_tasks(tasks):
-    task_counter = len(tasks)
-    print("Liczba zadań: ", task_counter)
+#def count_tasks(tasks):
+#    task_counter = len(tasks)
+#    print("Liczba zadań: ", task_counter)
 
-add_tasks(tasks)
-show_tasks(tasks)
-count_tasks(tasks)
+#add_tasks(tasks)
+#show_tasks(tasks)
+#count_tasks(tasks)
+
+# ĆWICZENIE FUNKCJE C.D. ------------
+
+Test
