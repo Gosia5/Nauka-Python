@@ -88,17 +88,22 @@
 
 # ĆWICZENIE FUNCKJE NIESTANDARDOWE -----
 
-#shopping_cart = []
+tasks = []
 
-#def add_to_cart(shopping_cart):
-#    number_of_products = int(input("Podaj ilość produktów: "))
-#    for _ in range (number_of_products):
-#        product = input("Podaj produkt: ")
-#        shopping_cart.append(product)
+def add_tasks(tasks):
+    number_of_tasks = int(input("Podaj liczbę zadań: "))
+    for _ in range (number_of_tasks):
+        task = input("Podaj zadanie: ")
+        tasks.append(task)
+        
+def show_tasks(tasks):
+    for index, task in enumerate(tasks, start=1):
+        print(f"{index}. {task.capitalize()}")
 
-#def show_cart(shopping_cart):
-#    for index, product in enumerate(shopping_cart, start=1):
-#        print(index, product)
+def count_tasks(tasks):
+    task_counter = len(tasks)
+    print("Liczba zadań: ", task_counter)
 
-#add_to_cart(shopping_cart)
-#show_cart(shopping_cart)
+add_tasks(tasks)
+show_tasks(tasks)
+count_tasks(tasks)
