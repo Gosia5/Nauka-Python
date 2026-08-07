@@ -100,21 +100,36 @@
 #    for index, product in enumerate(shopping_cart, start=1):
 #        print(index, product)
 
-def calculate(number1, number2, operation):
-    if operation == "+":
-        return number1 + number2
-    if operation == "-":
-        return number1 - number2
-    if operation == "*":
-        return number1 * number2
-    if operation == "/":
-        return number1 / number2
+
+# ĆWICZENIE KALKULATOR
+
+#def calculate(number1, number2, operation):
+#    if operation == "+":
+#        return number1 + number2
+#    if operation == "-":
+#        return number1 - number2
+#    if operation == "*":
+#        return number1 * number2
+#    if operation == "/":
+#        return number1 / number2
+#    return False
+
+#number1=int(input("Podaj pierwszą liczbę: "))
+#number2=int(input("Podaj drugą liczbę: "))
+#operation=input("Podaj symbol działania: ")
+
+#print("Wynik:", calculate(number1, number2, operation))
+
+# ĆWICZENIE DOSTAWA
+
+def free_delivery(price):
+    if price >= 100:
+        return True
     return False
 
-number1=int(input("Podaj pierwszą liczbę: "))
-number2=int(input("Podaj drugą liczbę: "))
-operation=input("Podaj symbol działania: ")
-
-print("Wynik:", calculate(number1, number2, operation))
-
-
+price=float(input("Podaj cenę: "))
+result = free_delivery(price)
+if result:
+    print("Free delivery")
+if not result:
+    print("Delivery fee applies")
