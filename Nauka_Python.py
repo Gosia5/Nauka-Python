@@ -38,3 +38,67 @@
 
 # NEXT
 
+
+# ĆWICZENIE FUNCKJE NIESTANDARDOWE -----
+
+#shopping_cart = []
+
+#def add_to_cart(shopping_cart):
+#    number_of_products = int(input("Podaj ilość produktów: "))
+#    for _ in range (number_of_products):
+#        product = input("Podaj produkt: ")
+#        shopping_cart.append(product)
+
+#def show_cart(shopping_cart):
+#    for index, product in enumerate(shopping_cart, start=1):
+#        print(index, product)
+
+
+# ĆWICZENIE KALKULATOR
+
+#def calculate(number1, number2, operation):
+#    if operation == "+":
+#        return number1 + number2
+#    if operation == "-":
+#        return number1 - number2
+#    if operation == "*":
+#        return number1 * number2
+#    if operation == "/":
+#        return number1 / number2
+#    return False
+
+#number1=int(input("Podaj pierwszą liczbę: "))
+#number2=int(input("Podaj drugą liczbę: "))
+#operation=input("Podaj symbol działania: ")
+
+#print("Wynik:", calculate(number1, number2, operation))
+
+# ĆWICZENIE DOSTAWA
+
+#def free_delivery(price):
+#    if price >= 100:
+#        return True
+#    return False
+
+#price=float(input("Podaj cenę: "))
+#result = free_delivery(price)
+#if result:
+#    print("Free delivery")
+#if not result:
+#    print("Delivery fee applies")
+
+
+# ĆWICZENIE
+
+def convert_temperature(temperature, unit):
+    """Funkcja do konwertowania temperatury"""
+    if unit == "C":
+        return (temperature * 9/5 + 32)
+    elif unit == "F":
+        return ((temperature - 32) * 5/9)
+
+temperature = float (input("Podaj ilość stopni: "))
+unit = input("Podaj jednostkę stopni (C/F): ")
+
+result = convert_temperature(temperature, unit)
+print("Przekonwertowana temperatura:", result)
