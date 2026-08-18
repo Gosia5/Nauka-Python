@@ -88,17 +88,34 @@
 #    print("Delivery fee applies")
 
 
-# ĆWICZENIE
+# ĆWICZENIE 1
 
-def convert_temperature(temperature, unit):
-    """Funkcja do konwertowania temperatury"""
-    if unit == "C":
-        return (temperature * 9/5 + 32)
-    elif unit == "F":
-        return ((temperature - 32) * 5/9)
+#def convert_temperature(temperature, unit):
+#    """Funkcja do konwertowania temperatury"""
+#    if unit == "C":
+#        return (temperature * 9/5 + 32)
+#    elif unit == "F":
+#        return ((temperature - 32) * 5/9)
 
-temperature = float (input("Podaj ilość stopni: "))
-unit = input("Podaj jednostkę stopni (C/F): ")
+#temperature = float (input("Podaj ilość stopni: "))
+#unit = input("Podaj jednostkę stopni (C/F): ")
 
-result = convert_temperature(temperature, unit)
-print("Przekonwertowana temperatura:", result)
+#result = convert_temperature(temperature, unit)
+#print("Przekonwertowana temperatura:", result)
+
+
+#ĆWICZENIE 2
+
+def validate_email(email):
+    """Funcja do sprawdzania obecności znaków @ i . w adresie email"""
+    if "@" in email and "." in email:
+        return True
+    else:
+        return False
+
+email=input("Podaj adres email: ")
+result=validate_email(email)
+if result:
+    print("Valid email")
+if not result:
+    print("Invalid email")
